@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "ramya"]
+	url = https://github.com/nemillaramya288-afk/nemilla-ramya.git
+	fetch = +refs/heads/*:refs/remotes/ramya/*
+[branch "main"]
+	vscode-merge-base = ramya/main
